@@ -1,0 +1,27 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+li {
+  width: 300px;
+  margin: 20px;
+  list-style: none;
+  word-break: break-word;
+  border-radius: 5px;
+  border: black 3px solid;
+}
+
+li p {
+  padding: 10px;
+}
+
+.organization {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
